@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* Changing the box type */
+html {
+    box-sizing: border-box;
+}
+    *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Add styling for html for the document */
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(211, 230, 246);
+    line-height: 1.4;
+    margin-top: 0;
+    scroll-behavior: smooth;
+}
+.project-footer-template {
+    /* Your main styles for the template section */
+}
+
+.project-footer-template .featured-background {
+    /* Styles for the background image div (e.g., height, background-size, etc.) */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Add a minimum height to see the background */
+    min-height: 300px; /* Example value */
+}
+
+.project-footer-template .content-wrapper {
+    /* Styles for the title and content area (e.g., padding, text alignment) */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Example with some transparency */
+}
+
+.project-footer-template h4 {
+    /* Styles for the title */
+}
+
+.project-footer-template p {
+    /* Styles for the content */
+}
+/* a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: 50%; 
+} */
+/*add some pretty styling like the box-shadow*/
+/* header nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    margin-left: 0.25em;
+    background:#f8c717;
+    box-shadow: 8px 2px 2px #309be3;
+    border-radius: 3px;  
+}
+header nav a {
+    display: block;
+    padding: 0.75em;
+    color: #000000;
+    text-decoration: none;
+}
+header > div > a {
+    width: 100%;
+    text-align: center;
+    display: block;
+} */

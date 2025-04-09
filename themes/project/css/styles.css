@@ -85,3 +85,11 @@ header > div > a {
     max-height: 60px; 
     width: auto;
 } */
+/* .site-header .header-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+} */

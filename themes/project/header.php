@@ -9,24 +9,28 @@
 
 </head>
 <body <?php body_class(); ?>>
-<header>
-            <div>
-                <a href="<?php echo esc_url( home_url() ); ?>">
-                    <!-- Photo as a logo-->
-                    <img src="<?php echo esc_url( home_url( 'http://project.local/wp-content/uploads/2025/04/logo.svg' ) ); ?>" alt="header logo" class="site-logo">>
-                </a>
-            </div>
-            <nav>
-                <?php
-                // php hook for wordpress to use the menu
-                wp_nav_menu( array(
-                    'menu'              => 'main',
-                    'theme_location'    => '',
-                    'depth'             => 2,
-                    'fallback_cb'       => false
-                ));
-                ?>
-            </nav>
-        </header>    
+<header class="site-header"><!-- this class is for overall styling-->
+    <div class="header-wrapper">
+        <div class="site-logo-container">
+            <!--This is where my site logo is, it'll link to my home page-->
+            <a href="<?php echo esc_url( home_url() ); ?>">
+                <!-- Photo as a logo-->
+                <img src="<?php echo esc_url( home_url( 'http://project.local/wp-content/uploads/2025/04/logo.svg' ) ); ?>" alt="header logo" class="site-logo">
+            </a>
+        </div>
+        <nav class="site-nav">>
+            <?php
+            // php hook for wordpress to use the menu
+            wp_nav_menu( array(
+                // changed the menu main to just the primary location in case i rename it
+                'theme_location'    => 'primary',
+                'menu_id'           => 'primary-menu',
+                'menu_class'        => 'nav-menu',
+                'depth'             => 2,
+                'fallback_cb'       => false
+            ));
+            ?>
+        </nav>
+    </header>    
 </body>
 </html>

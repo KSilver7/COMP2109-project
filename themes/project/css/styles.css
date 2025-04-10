@@ -16,80 +16,64 @@ html {
     margin-top: 0;
     scroll-behavior: smooth;
 }
-.project-footer-template {
-    /* Your main styles for the template section */
-}
 
-.project-footer-template .featured-background {
-    /* Styles for the background image div (e.g., height, background-size, etc.) */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* Add a minimum height to see the background */
-    min-height: 300px; /* Example value */
-}
 
-.project-footer-template .content-wrapper {
-    /* Styles for the title and content area (e.g., padding, text alignment) */
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Example with some transparency */
-}
 
-.project-footer-template h4 {
-    /* Styles for the title */
-}
 
-.project-footer-template p {
-    /* Styles for the content */
+.site-logo {
+    width: 150px;
+    height: auto;
 }
-/* a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-    list-style-type: none;
-    display: flex;
-    padding: 5px;
-    width: 100%;
-}
-header nav ul {
-    list-style-type: none;
-    margin: 0;
+.nav-menu {
+    /* Remove bullet points */
+    list-style-type: none; 
     padding: 0;
-    float: left;
-    position: relative;
-    left: 50%; 
-} */
-/*add some pretty styling like the box-shadow*/
-/* header nav ul li {
-    float: left;
-    position: relative;
-    right: 50%;
-    margin-left: 0.25em;
-    background:#f8c717;
-    box-shadow: 8px 2px 2px #309be3;
-    border-radius: 3px;  
+    margin: 0;
 }
-header nav a {
-    display: block;
-    padding: 0.75em;
-    color: #000000;
-    text-decoration: none;
+
+.nav-menu li {
+    display: inline-block; 
+    margin-right: 20px; 
 }
-header > div > a {
-    width: 100%;
-    text-align: center;
-    display: block;
-} */
-/* .site-icon {
-    max-height: 60px; 
-    width: auto;
-} */
-/* .site-header .header-wrapper { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+
+.nav-menu li:last-child {
+    margin-right: 0; 
+}
+
+.nav-menu a {
+    text-decoration: none; 
+    color: #333; 
+    padding: 5px 10px; 
+}
+
+.nav-menu a:hover {
+    color: #007bff; 
+}
+.header-wrapper {
    
-} */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+.site-nav {
+    margin-left: 10px;
+}
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;;
+}
+.nav-menu li {
+    margin-right: 20px;
+}
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}

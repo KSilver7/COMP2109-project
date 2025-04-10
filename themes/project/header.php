@@ -15,7 +15,7 @@
             <!--This is where my site logo is, it'll link to my home page-->
             <a href="<?php echo esc_url( home_url() ); ?>">
                 <!-- Photo as a logo-->
-                <img src="<?php echo esc_url( home_url( 'http://project.local/wp-content/uploads/2025/04/logo.svg' ) ); ?>" alt="header logo" class="site-logo">
+                <img src="<?php echo esc_url( home_url( 'http://project.local/wp-content/uploads/2025/04/logo.png' ) ); ?>" alt="header logo" class="site-logo">
             </a>
         </div>
         <nav class="site-nav">

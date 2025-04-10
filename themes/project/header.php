@@ -31,4 +31,5 @@
             ));
             ?>
         </nav>
+        </div><!-- end of header wrapper -->
     </header>    

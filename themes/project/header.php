@@ -18,7 +18,7 @@
                 <img src="<?php echo esc_url( home_url( 'http://project.local/wp-content/uploads/2025/04/logo.svg' ) ); ?>" alt="header logo" class="site-logo">
             </a>
         </div>
-        <nav class="site-nav">>
+        <nav class="site-nav">
             <?php
             // php hook for wordpress to use the menu
             wp_nav_menu( array(
@@ -32,5 +32,3 @@
             ?>
         </nav>
     </header>    
-</body>
-</html>
